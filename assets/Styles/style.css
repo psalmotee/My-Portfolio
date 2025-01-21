@@ -245,7 +245,7 @@ li {
 .resume-header,
 .contact-header {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   background: #00bf8f;
   border-radius: 1rem;
@@ -256,8 +256,8 @@ li {
 .about-img,
 .skills-img,
 .projects-img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 1rem;
@@ -346,7 +346,7 @@ li {
   width: 100%;
   height: 100%;
   position: relative;
-  transition: transform 0.6s;
+  transition: transform 0.5s;
   transform-style: preserve-3d;
 }
 
@@ -462,6 +462,7 @@ footer {
     flex-direction: row;
   }
 
+/* Project, resume and Contant Header */
   .projects-header, .resume-header, .contact-header  {
     display: inline-flex;
     width: 50%;
@@ -483,6 +484,7 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+  /* Navigation */
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -542,18 +544,23 @@ footer {
 }
 
 /* Them Switcher */
+/* Body */
 body.theme {
   background-color: #f0f0f0;
   color: #333;
 }
 
+/* Green Background */
 body.theme .bg-green {
   background-color: #ffffff;
 }
+
+/* Bg Wave */
 body.theme .wave {
   background-color: #e0e0e0;
 }
 
+/* Navigation */
 body.theme .navbar {
   background-color: #333;
   color: #fff;
@@ -564,7 +571,7 @@ body.theme .navbar .logo {
 }
 
 body.theme .nav-links {
-  /* background-color: #333; */
+  background-color: #333;
 }
 
 body.theme .nav-links a {
@@ -601,7 +608,7 @@ body.theme .theme-switcher i {
   color: #fff;
 }
 
-
+/* Hero Section */
 body.theme .message-bubble {
   background-color: #333;
   color: #fff;
@@ -621,6 +628,7 @@ body.theme .hero-img-bg {
   background: #333;
 }
 
+/* About, SKills, Project, Resume and Contact Header */
 body.theme .about-header,
 body.theme .skills-header,
 body.theme .projects-header,
@@ -629,6 +637,7 @@ body.theme .contact-header {
   background-color: #333;
 }
 
+/* About, Skills, Project, Resume and Contact h2 */
 body.theme .about h2,
 body.theme .skills h2,
 body.theme .projects h2,
@@ -637,6 +646,7 @@ body.theme .contact h2 {
   color: #fff;
 }
 
+/* Skills  */
 body.theme .skills li {
   background-color: #333;
   color: #fff;
@@ -646,6 +656,7 @@ body.theme .skills li:hover {
   background-color: #5754a8;
 }
 
+/* Project */
 body.theme .flip-card-front {
   background-color: #333;
 }
@@ -666,6 +677,7 @@ body.theme .flip-card-back a:hover {
   color: #fff;
 }
 
+/* Resume */
 body.theme .resume .resume-button {
   background-color: #333;
 }
@@ -674,6 +686,7 @@ body.theme .resume .resume-button:hover {
   background-color: #5754a8;
 }
 
+/* Contact */
 body.theme .social-container {
   background-color: #333;
 }
