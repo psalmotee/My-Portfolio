@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Animination -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Boxicons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/Styles/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="bg-green">
+        <div class="wave"></div>
+        <header class="header">
+          <div class="container">
+            <nav class="navbar">
+              <div class="logo">PsalmoTee</div>
+              <!-- <div class="nav-top"> -->
+
+                <!-- </div> -->
+                
+                <ul class="nav-links">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">RESUME</a></li>
+              </ul>
+              <div class="nav-sidebar">
+                <div class="menu" id="hamburger-menu">
+                  <i class="bx bx-menu"></i>
+                  <script></script>
+                </div>
+  
+                <div class="theme-switcher">
+                  <i class="bx bxs-moon" id="theme-button"></i>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+
+        <section class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <div class="hero-content-text">
+                <div
+                  class="hero-img-text"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <div class="profile-small">
+                    <img src="./assets/Images/Psalmotee.jpg" alt="Profile" />
+                  </div>
+                  <div class="message-bubble">
+                    <p>Hello, friend!</p>
+                  </div>
+                </div>
+                <div class="text" data-aos="fade-left" data-aos-duration="1500">
+                  <p>I'm available for hire work.</p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="2000">
+                  <a
+                    href="#project"
+                    class="begin-btn"
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                    >Let's begin</a
+                  >
+                </div>
+              </div>
+              <div class="hero-image">
+                <div
+                  class="hero-img-bg"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                ></div>
+                <img
+                  src="./assets/Images/web design.png"
+                  alt="Hero"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about-header">
+            <div class="about-img">
+              <img src="./assets/Images/about.jpg" alt="" />
+            </div>
+            <h2>About Me</h2>
+          </div>
+          <p>
+            Hi, I am Samson Tolulope Moradeyo, a Front-End developer. I
+            specialize in HTML, CSS, JavaScript, React, Vue. With 1 year of
+            experience, I have worked on various projects, including Todo-list
+            App, WP Pusher Checkout, Huckleberry, Scissors, Slide Gallery, .
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="skills-header">
+            <div class="skills-img">
+              <img src="./assets/Images/skills.png" alt="" />
+            </div>
+            <h2>Skills</h2>
+          </div>
+          <ul>
+            <li data-aos="fade-left" data-aos-duration="1000">HTML</li>
+            <li data-aos="fade-right" data-aos-duration="1000">CSS</li>
+            <li data-aos="fade-up" data-aos-duration="1000">JavaScript</li>
+            <li data-aos="fade-left" data-aos-duration="1000">React</li>
+            <li data-aos="fade-right" data-aos-duration="1000">Vue</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="projects-header">
+            <div class="projects-img">
+              <img
+                src="./assets/Images/white-desk-work-study-aesthetics.jpg"
+                alt=""
+              />
+            </div>
+            <h2>Projects</h2>
+          </div>
+
+          <div class="flip-container">
+            <div
+              class="flip-card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>Todo-List</h3>
+                  <img
+                    src="./assets/Images/Projects-Shoot/Todo-List.png"
+                    alt="Todo-List Screenshoot"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    A simple and intuitive Todo-List application to help you
+                    manage your tasks efficiently.
+                  </p>
+                  <a href="https://todo-app-alpha-amber-25.vercel.app/"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flip-card"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>Scissors</h3>
+                  <img
+                    src="./assets/Images/Projects-Shoot/Scissors.png"
+                    alt="Scissors Screenshoot"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    Scissors is a URL shortening service that allows users to
+                    shorten long URLs for easier sharing and tracking. It
+                    provides a simple and efficient way to manage and share
+                    links.
+                  </p>
+                  <a href="https://scissors-web.netlify.app/">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flip-card"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>WP Pusher Checkout</h3>
+                  <img
+                    src="./assets/Images/Projects-Shoot/WP-Pusher-Checkout.png"
+                    alt="WP Pusher Checkout Screenshoot"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    A checkout page designed for WP Pusher, providing a seamless
+                    and user-friendly experience for purchasing plugins.
+                  </p>
+                  <a href="https://wp-pusher-checkout-web.netlify.app/"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flip-card"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>Huckleberry</h3>
+                  <img
+                    src="./assets/Images/Projects-Shoot/Huckleberry.png"
+                    alt="Huckleberry Screenshoot"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    A responsive website for Huckleberry, showcasing their
+                    services and products with a modern design.
+                  </p>
+                  <a
+                    href="https://huckleberry-responsive-web-design.netlify.app/"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card" data-aos="fade-up" data-aos-duration="1000">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>Slide Gallery</h3>
+                  <img
+                    src="./assets/Images/Projects-Shoot/Slide-Gallery.png"
+                    alt="Slide Gallery Screenshoot"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    A dynamic slide gallery application that allows users to
+                    view images in a slideshow format with smooth transitions.
+                  </p>
+                  <a href="https://slides-gallery.netlify.app/">View Project</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flip-card"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>Landing Page</h3>
+                  <img
+                    src="./assets/Images/Projects-Shoot/Landing-Page.png"
+                    alt="Landing Page Screenshoot"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <p>
+                    A modern and responsive landing page designed to capture
+                    user interest and drive conversions.
+                  </p>
+                  <a href="https://landing-page-web-development.netlify.app/"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="resume-header">
+            <h2>Resume</h2>
+          </div>
+          <p>
+            Download my resume to learn more about my experience and skills.
+          </p>
+          <div class="resume-button">
+            <a
+              href="./assets/Resume/Samson Tolulope  Moradeyo Resume.pdf"
+              download="Samson Tolulope Moradeyo.pdf"
+              >Download</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="contact-header">
+            <h2>Contact</h2>
+          </div>
+
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:samsonmoradeyo">samsonmoradeyo@gmail.com</a>
+            </li>
+            <li>Phone: +2349023148485</li>
+          </ul>
+
+          <div class="social-share">
+            <div class="social-container social-border social-bg-git">
+              <a href="https://github.com/psalmotee" class="social-icon">
+                <i class="bx bxl-github"></i>
+              </a>
+            </div>
+            <div class="social-container social-border social-bg-linkedin">
+              <a
+                href="www.linkedin.com/in/samson-moradayo-211b26187"
+                class="social-icon"
+              >
+                <i class="bx bxl-linkedin"></i>
+              </a>
+            </div>
+            <div class="social-container social-border social-bg-x">
+              <a href="https://x.com/Psalmo_Tee" class="social-icon">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; 2025 PsalmoTee. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <!-- animination -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Script -->
+    <script src="./assets/Scripts/script.js"></script>
+
+    <!-- <script src="./index.js"></script> -->
+  </body>
+</html>
