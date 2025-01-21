@@ -80,7 +80,7 @@ li {
 
 .menu i {
   color: #5754a8;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* Theme Switcher */
@@ -95,7 +95,7 @@ li {
 
 .theme-switcher i {
   color: #5754a8;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
@@ -320,13 +320,6 @@ li {
   transform: scaleX(1.1);
 }
 
-/* Projects */
-/* .projects {
-  display: grid;
-  grid-template-columns: repeat (1, 1fr);
-  gap: 1rem;
-} */
-
 .flip-card img {
   width: 100%;
   height: auto;
@@ -443,7 +436,6 @@ li {
   border-radius: 50px;
   cursor: pointer;
   padding: 0.6rem 0.8rem;
-  
 }
 
 .social-container:hover {
@@ -572,7 +564,7 @@ body.theme .navbar .logo {
 }
 
 body.theme .nav-links {
-  background-color: #333;
+  /* background-color: #333; */
 }
 
 body.theme .nav-links a {
