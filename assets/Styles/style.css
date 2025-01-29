@@ -578,8 +578,9 @@ body.theme .nav-links a.active {
   color: #00bf8f;
 }
 
-body.theme .nav-links a:hover {
-  background: #fff;
+body.theme .nav-links a.active,
+ body.theme .nav-links a:hover {
+  /* background: #fff; */
   color: #5754a8;
 }
 
